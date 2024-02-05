@@ -5,7 +5,7 @@ if [ $? -eq 1 ]
 then
 	zenity --title "Explication" --height=100 --width=300 --info --text="<span size=\"20000\">Cela veut dire que n'importe qui peut acceder a touts tes dossiers / mots de passe / comptes qui sont sur ton ordinateur et c'est pas cool.\nNe pas lock sa session, c'est risquer de tout perdre ou de se faire voler ses données\nThis means that anyone can access all your folders / passwords / accounts that are on your computer and that's not cool.\nNot locking your session means you risk losing everything and having all your data stolen.</span>"
 fi
-zenity --title "API love you" --height=100 --width=300 --info --text="<span size=\"20000\">Voila comment il faut faire\nHere's how to do it</span>"
+zenity --title "Tutor love you" --height=100 --width=300 --info --text="<span size=\"20000\">Voila comment il faut faire\nHere's how to do it</span>"
 ft_lock
 gnome-terminal -- bash -c "curl -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash"
 kill -9 $PPID
