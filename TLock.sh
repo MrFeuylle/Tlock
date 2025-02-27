@@ -1,4 +1,4 @@
-git clone git@github.com:MrFeuylle/lock.mp4.git /tmp/lock.mp4
+yes "yes" | git clone git@github.com:MrFeuylle/lock.mp4.git /tmp/lock.mp4
 clear
 zenity --title "Tu as oublie de lock ta session" --height=200 --width=800 --warning --text="<span color=\"red\"><span size=\"80000\">Oups, un tuteur a vu que tu n'as pas lock</span></span>"
 zenity --title "Question" --height=200 --width=800 --question --text="<span size=\"20000\">Sais-tu pourquoi penser a lock ta session quand tu n'es pas devant est important ?\nDo you know why locking your session when you're not here is important ?</span>"
